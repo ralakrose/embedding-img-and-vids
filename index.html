@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Youtube</title>
+  </head>
+  <body>
+    <!--navigation bar-->
+    <div class="navbar-container">
+      <header class="header">
+        <div class="left-navbar-items">
+          <ul class="navbar-left">
+            <li><button style="border:none; text-align:center; float: left; background: transparent;"><i class="fa fa-bars" aria-hidden="true" id="icons" style="font-size:30px;"></i></button></i></li>
+            <li> <button style="border:none; text-align:center;  background: transparent; " ><img src="logo1.jpg" alt="" class="logo" /></button> </li>
+          </ul>
+        </div>
+        <!--Search area-->
+        <div class="search-container">
+          <ul class="search">
+            <li>
+              <form class="form">
+                <div class="search-form">
+                  <input
+                    type="text"
+                    class="search-input"
+                    placeholder="Search"
+                  />
+                  <button class="search-button">
+                    <i id="search-icon" class="fa fa-search"></i>
+                  </button>
+                </div>
+              </form>
+            </li>
+          </ul>
+        </div>
+        <!--left side of the navbar-->
+        <div class="right-navbar-items">
+          <ul class="navbar-right">
+            <li><i id="icons" class="fa fa-video-camera" aria-hidden="true"></i></i></li>
+            <li><i id="icons" class="fa fa-th"></i></li>
+            <li><i id="icons" class="fa fa-bell" aria-hidden="true"></i></li>
+            <li><i id="icons" class="fa fa-user-circle"></i></li>
+          </ul>
+        </div>
+      </header>
+    </div>
+    <!--Main container with videos-->
+    <div class="main-container">
+      <ul class="main-container-elements">
+        <li class="current-element">
+          <!--video currently playing-->
+          <div class="current-video">
+            <iframe id="main-iframe" width="560" height="315" src="https://www.youtube.com/embed/FnFrUsdZ1-8" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <!--Details about the video-->
+          <div class="video-description">
+            <div class="video-name">
+              <span class="hashtag">#30 on Trending</span><br>
+              <span class="video-name" style="font-size:18px; padding-top: 10px">
+                Khaligraph Jones -Tuma Kitu (Official Video)
+              </span>
+              <p style="position: fixed; padding-top: 33px; left: 5px; color: #666; font-size: 16px">12,234,567 views <i class="fa fa-circle" aria-hidden="true" style="font-size:8px; "></i> Jun 11, 2020</p>
+              <div class="video-stats"><ul class="stat-icons">
+                <li> <button class="btn-stat-icons"><i id="stat-icons" class="fa fa-thumbs-up" aria-hidden="true"></i>60K</button></li>
+                <li> <button class="btn-stat-icons"><i id="stat-icons" class="fa fa-thumbs-down" aria-hidden="true"></i>40K</button> 
+                </li>
+                <li> <button class="btn-stat-icons"><i id="stat-icons" class="fa fa-share" aria-hidden="true"></i>SHARE</button> </li>
+                <li> <button class="btn-stat-icons"><i id="stat-icons" class="fa fa-plus"></i>SAVE</button> </li>
+                <li> <button class="btn-stat-icons"><i id="stat-icons" class="fa fa-ellipsis-h" aria-hidden="true"></i></button> </li>
+              </ul></div>
+            </div>
+            
+          </div>
+        </li>
+        <li class="next-element">
+          <!--Videos up next-->
+          <div class="next-videos">
+            <div class="show-more">
+              <button class="btn-show-more">SHOW CHAT REPLAY</button>
+            </div>
+            <div class="up-next">
+              <p style="position: fixed; right: 342px;">Up next</p>
+              <p style="position: fixed; right: 40px;">AUTOPLAY<i id="toggle-on" class="fa fa-toggle-on" aria-hidden="true"></i></p>
+            </div>
+          </div>
+
+              <div class="next-video">
+                <ul>
+<li><div class="video">
+  
+<iframe id="video" src="https://www.youtube.com/embed/84Elr2O4hq4" frameborder="0"
+  allow=" encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></li>
+<li>
+<div class="next-video-text">
+<span style="text-align:left; font-size:13px;font-family: Roboto, Arial, sans-serif;">
+<b>Watoto Na Pombe - Otile Brown & Mejja x Magix Enga ( Official Video) </b><br>
+Otile Brown Official <br>
+1.5M views<i class="fa fa-circle" aria-hidden="true" style="font-size:4px; "></i>1 month ago</span>
+</div>
+</li>
+</ul>
+              </div> <br>
+              <div class="next-video">
+                <ul>
+                  <li>
+                    <div class="video">
+              
+                      <iframe id="video" src="https://www.youtube.com/embed/84Elr2O4hq4" frameborder="0"
+                        allow=" encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="next-video-text">
+                      <span style="text-align:left; font-size:13px;font-family: Roboto, Arial, sans-serif;">
+                        <b>Watoto Na Pombe - Otile Brown & Mejja x Magix Enga ( Official Video) </b><br>
+                        Otile Brown Official <br>
+                        1.5M views<i class="fa fa-circle" aria-hidden="true" style="font-size:4px; "></i>1 month ago</span>
+                    </div>
+                  </li>
+                </ul>
+                
+              </div>
+              <div class="next-video">
+                <ul>
+                  <li>
+                    <div class="video">
+              
+                      <iframe id="video" src="https://www.youtube.com/embed/84Elr2O4hq4" frameborder="0"
+                        allow=" encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="next-video-text">
+                      <span style="text-align:left; font-size:13px;font-family: Roboto, Arial, sans-serif;">
+                        <b>Watoto Na Pombe - Otile Brown & Mejja x Magix Enga ( Official Video) </b><br>
+                        Otile Brown Official <br>
+                        1.5M views<i class="fa fa-circle" aria-hidden="true" style="font-size:4px; "></i>1 month ago</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="next-video">
+                <ul>
+                  <li>
+                    <div class="video">
+              
+                      <iframe id="video" src="https://www.youtube.com/embed/84Elr2O4hq4" frameborder="0"
+                        allow=" encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="next-video-text">
+                      <span style="text-align:left; font-size:13px;font-family: Roboto, Arial, sans-serif;">
+                        <b>Watoto Na Pombe - Otile Brown & Mejja x Magix Enga ( Official Video) </b><br>
+                        Otile Brown Official <br>
+                        1.5M views<i class="fa fa-circle" aria-hidden="true" style="font-size:4px; "></i>1 month ago</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="next-video">
+                <ul>
+                  <li>
+                    <div class="video">
+              
+                      <iframe id="video" src="https://www.youtube.com/embed/84Elr2O4hq4" frameborder="0"
+                        allow=" encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="next-video-text">
+                      <span style="text-align:left; font-size:13px;font-family: Roboto, Arial, sans-serif;">
+                        <b>Watoto Na Pombe - Otile Brown & Mejja x Magix Enga ( Official Video) </b><br>
+                        Otile Brown Official <br>
+                        1.5M views<i class="fa fa-circle" aria-hidden="true" style="font-size:4px; "></i>1 month ago</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            
+          
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
